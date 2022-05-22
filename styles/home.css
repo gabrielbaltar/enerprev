@@ -10,6 +10,10 @@
     --red-color: #E30613;
     --color-menu-text: #404040;
     --spotlist-text-color: #A6A6A6;
+    --card-access-background: #F0F0F0;
+    --button-background-hover: #AD000A;
+    --card-access-hover: #DDDDDD;
+    --card-access-red-background-hover: #AD000A;
 }
 
 /* Menu site */
@@ -66,10 +70,6 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-}
-
-.menu-content .menu-list a:hover{
-    color: var(--red-color);
 }
 
 .menu-content-container .menu-content .menu-logo img{
@@ -441,7 +441,7 @@
  @media only screen and (max-width: 430px) {
 
     .banner-container .card-spotlist {
-        top: 290px;
+        top: 18.125rem;
         left: 1rem;
     }
 
@@ -457,3 +457,129 @@
         color: var(--white-background);
     }
  }
+
+ /* Access conteiner */
+
+ .access-container {
+     max-width: 100%;
+     width: 100%;
+     background: var(--white-background);
+     height: 23.25rem;
+ }
+
+ .access-container .access-content{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 235px;
+    flex-shrink: 2;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+ }
+
+ .access-container .access-content .card{
+    height: 235px;
+    width: 235px;
+    background: var(--card-access-background);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1.25rem;
+    transition: .3s;
+ }
+
+ .access-container .access-content .card a{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-menu-text);
+ }
+
+ .access-container .access-content .card:nth-child(1){
+    height: 235px;
+    width: 235px;
+    background: var(--red-color);
+    align-items: center;
+    color: var(--white-background);
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: start;
+    padding-left: 3rem;
+    margin-left: 1rem;
+ }
+
+ .access-container .access-content .card:nth-child(5){
+    margin-right: 1rem;
+ }
+
+ .access-container .access-content .card:hover{
+    background: var(--card-access-hover);
+ }
+
+ .access-container .access-content .card:hover:nth-child(1){
+    background: #AD000A;
+ }
+
+ @media only screen and (max-width: 1210px) {
+    .access-container .access-content .card{
+        height: 235px;
+        width: 450px;
+        flex-grow: 2;
+        margin: 0 1rem;
+     }
+
+     .access-container .access-content .card:nth-child(1){
+        height: 235px;
+        width: 900px;
+        margin-left: 0; 
+        margin: 0 1rem;
+     }
+ }
+
+ @media only screen and (max-width: 400px) {
+     .access-container .access-content{
+        padding: 0 1rem;
+     }
+
+    .access-container .access-content .card{
+        height: 10.25rem;
+        width: 10.25rem;
+        flex-grow: 1;
+        margin: 0 0;
+     }
+
+     .access-container .access-content .card:nth-child(1){
+        height: 60px;
+        margin-left: 0; 
+        margin: 0 0rem;
+        padding-left: 0;
+     }
+
+     .access-container .access-content .card:nth-child(5){
+        margin-right: 0rem;
+     }
+
+     .access-container {
+        height: 27rem;
+    }
+
+    .access-container .access-content .card p{
+       font-size: 1rem;
+       font-weight: 600;
+    }
+
+    .access-container .access-content .card img{
+        width: 3rem;
+    }
+
+    .access-container .access-content .card a{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+ } 

@@ -1,12 +1,1 @@
-<svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-<ellipse cx="29.4083" cy="29.2085" rx="28.7257" ry="28.9346" fill="white"/>
-<g style="mix-blend-mode:multiply">
-<rect x="21.3799" y="42.3997" width="12.7653" height="4.22437" transform="rotate(-90 21.3799 42.3997)" fill="#9C1006"/>
-</g>
-<g style="mix-blend-mode:multiply">
-<rect x="21.3799" y="38.1443" width="16.1693" height="17.7423" transform="rotate(-90 21.3799 38.1443)" fill="#E30613"/>
-</g>
-<g style="mix-blend-mode:multiply">
-<rect x="28.9844" y="38.1443" width="22.9775" height="4.22437" transform="rotate(-90 28.9844 38.1443)" fill="#9C1006"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="59" height="59" fill="none" viewBox="0 0 59 59"><ellipse cx="29.408" cy="29.209" fill="#fff" rx="28.726" ry="28.935"/><g style="mix-blend-mode:multiply"><rect width="12.765" height="4.224" x="21.38" y="42.4" fill="#9C1006" transform="rotate(-90 21.3799 42.3997)"/></g><g style="mix-blend-mode:multiply"><rect width="16.169" height="17.742" x="21.38" y="38.144" fill="#E30613" transform="rotate(-90 21.3799 38.1443)"/></g><g style="mix-blend-mode:multiply"><rect width="22.977" height="4.224" x="28.984" y="38.144" fill="#9C1006" transform="rotate(-90 28.9844 38.1443)"/></g></svg>
